@@ -6,7 +6,7 @@ Homepage-Logon-Balancepage
 ./check balance page, with a left drawer of menu while viewport to sm size.
 ./some of cards with animation styles.
 
-2.What libraries were used with?
+2.What libraries/framework were used with?
 ./React js.
 ./typescript.
 ./vite.
