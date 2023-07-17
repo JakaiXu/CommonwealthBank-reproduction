@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Calendar64</title>
+    <g id="Calendar64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calendar">
+            <rect id="Bounding-box" x="0" y="0" width="64" height="64"></rect>
+            <g id="Pictogram" transform="translate(13.639477, 11.938475)">
+                <rect id="Rectangle" stroke="#1E1E1E" fill="#FFFFFF" x="0.860523008" y="3.5615252" width="35" height="34"></rect>
+                <line x1="0.860523008" y1="9.5615252" x2="35.860523" y2="9.5615252" id="Path-16" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="6.10300657" y1="17.7110241" x2="6.10300657" y2="19.4120263" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.103007, 18.561525) rotate(-90.000000) translate(-6.103007, -18.561525) "></line>
+                <line x1="31.1927889" y1="17.7110241" x2="31.1927889" y2="19.4120263" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(31.192789, 18.561525) rotate(-90.000000) translate(-31.192789, -18.561525) "></line>
+                <line x1="14.6080175" y1="17.7110241" x2="14.6080175" y2="19.4120263" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.608018, 18.561525) rotate(-90.000000) translate(-14.608018, -18.561525) "></line>
+                <line x1="23.1130285" y1="17.7110241" x2="23.1130285" y2="19.4120263" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(23.113028, 18.561525) rotate(-90.000000) translate(-23.113028, -18.561525) "></line>
+                <line x1="6.52825712" y1="28.9170373" x2="6.52825712" y2="30.6180394" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(6.528257, 29.767538) rotate(-90.000000) translate(-6.528257, -29.767538) "></line>
+                <line x1="31.1927889" y1="28.9170373" x2="31.1927889" y2="30.6180394" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(31.192789, 29.767538) rotate(-90.000000) translate(-31.192789, -29.767538) "></line>
+                <line x1="15.0332681" y1="28.9170373" x2="15.0332681" y2="30.6180394" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round" transform="translate(15.033268, 29.767538) rotate(-90.000000) translate(-15.033268, -29.767538) "></line>
+                <path d="M21.8372768,29.9170373 L23.538279,29.9170373" id="Path-3" stroke="#231F20" stroke-linecap="round"></path>
+                <line x1="6.86052301" y1="0.0615251987" x2="6.86052301" y2="6.0615252" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="29.860523" y1="-4.92939023e-14" x2="29.860523" y2="6" id="Path-2" stroke="#1E1E1E" stroke-linecap="round" stroke-linejoin="round"></line>
+                <polygon id="Rectangle" stroke="#1E1E1E" fill="#FAEC20" stroke-linejoin="round" points="23.538279 26.365534 26.5150329 29.3422878 23.538279 32.3190416 20.5615252 29.3422878"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

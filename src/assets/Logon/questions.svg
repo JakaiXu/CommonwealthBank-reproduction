@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Feedback48</title>
+    <g id="Feedback48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" opacity="0" x="0" y="0" width="48" height="48"></rect>
+        <g id="Group">
+            <rect id="bounding-box" fill-rule="nonzero" x="0" y="0" width="48" height="48"></rect>
+            <g id="Speech-bubble" transform="translate(6.750000, 12.000000)" stroke="#1E1E1E">
+                <path d="M33.75,7 L33.75,20.96 C33.75,21.5122847 33.3022847,21.96 32.75,21.96 L29.3863636,21.96 L29.3863636,21.96 L29.35,27 L25.0227273,21.96 L10.75,21.96 C10.1977153,21.96 9.75,21.5122847 9.75,20.96 L9.75,7 C9.75,6.44771525 10.1977153,6 10.75,6 L32.75,6 C33.3022847,6 33.75,6.44771525 33.75,7 Z" id="Speech-bubble-recieve" fill="#FAEC20"></path>
+                <path d="M0,0.998304763 C0,0.446956267 0.44746922,0 1.00069463,0 L22.9993054,0 C23.5519738,0 24,0.448906158 24,0.998304763 L24,15.1555414 C24,15.7068899 23.5593879,16.1538462 22.9979137,16.1538462 L8.72727273,16.1538462 L4.4,21 L4.4,16.1538462 L0.998428106,16.1538462 C0.447011489,16.1538462 0,15.70494 0,15.1555414 L0,0.998304763 Z" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Sun Clouds64</title>
+    <defs>
+        <path d="M21.555,8.595 L24.795,5.355" id="path-1"></path>
+        <path d="M1.305,15.885 L5.355,15.885" id="path-2"></path>
+        <path d="M4.95,4.14 L9.405,8.595" id="path-3"></path>
+        <path d="M15.075,1.305 L15.075,6.975" id="path-4"></path>
+        <path d="M0.81,8.18345391e-14 L2.025,1.215" id="path-5"></path>
+    </defs>
+    <g id="Sun-Clouds64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sun-Clouds-Pictogram" stroke="#1E1E1E" stroke-width="0.81">
+            <g id="Sun" transform="translate(9.000000, 15.000000)">
+                <circle id="Oval" fill="#FAEC20" cx="16.695" cy="18.315" r="8.91"></circle>
+                <g id="Line-5">
+                    <path d="" stroke-linejoin="square"></path>
+                    <use xlink:href="#path-1"></use>
+                </g>
+                <g id="Line-5-Copy">
+                    <path d="" stroke-linejoin="square"></path>
+                    <use xlink:href="#path-2"></use>
+                </g>
+                <g id="Line-5-Copy-2">
+                    <path d="" stroke-linejoin="square"></path>
+                    <use xlink:href="#path-3"></use>
+                </g>
+                <g id="Line-5-Copy-4">
+                    <path d="" stroke-linejoin="square"></path>
+                    <use xlink:href="#path-4"></use>
+                </g>
+                <g id="Line-5-Copy-3">
+                    <path d="" stroke-linejoin="square"></path>
+                    <use xlink:href="#path-5"></use>
+                </g>
+            </g>
+            <g id="Clouds" transform="translate(16.000000, 26.000000)" fill="#FFFFFF">
+                <path d="M20.25,0.405 C23.0332564,0.405 25.5285917,1.73243092 27.2331131,3.82939892 C28.3919328,3.7559151 29.1680114,3.645 29.97,3.645 C32.3185909,3.645 34.4448409,4.59695455 35.9839432,6.13605683 C37.5230454,7.6751591 38.475,9.8014091 38.475,12.15 C38.475,14.503417 37.5193773,16.6473072 35.9752627,18.2013604 C34.4370748,19.7494487 32.3144826,20.7123486 29.97,20.7123486 C29.6398823,20.7123486 29.3141574,20.693276 28.9938394,20.6561662 L28.9938394,20.6561662 L6.49257776,20.6550007 C4.79087849,20.547682 3.26613527,19.786292 2.16817983,18.6197143 C1.07501149,17.458223 0.405,15.8948607 0.405,14.175 C0.405,12.3855974 1.13029871,10.7655974 2.30294806,9.59294806 C3.47559741,8.42029871 5.09559741,7.695 6.885,7.695 C8.22086954,7.695 9.462378,8.09912673 10.4937567,8.79201691 C10.6745502,8.91347568 10.8495701,9.04426649 11.0179332,9.18357841 C11.0443998,8.96572217 11.0776821,8.74750129 11.1179011,8.52922562 C11.5491496,6.18876196 12.7233075,4.13843491 14.3648577,2.6819704 C15.9675221,1.26000733 18.0163275,0.405 20.25,0.405 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

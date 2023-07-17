@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mobile64</title>
+    <g id="Mobile64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile">
+            <g id="Pictogram" transform="translate(20.000000, 11.000000)" stroke="#1E1E1E">
+                <rect id="Rectangle" fill="#FFFFFF" x="0.5" y="0.5" width="23" height="42" rx="3"></rect>
+                <path d="M0.5,36.5 L23.5,36.5 L23.5,39.5 C23.5,41.1568542 22.1568542,42.5 20.5,42.5 L3.5,42.5 C1.84314575,42.5 0.5,41.1568542 0.5,39.5 L0.5,36.5 L0.5,36.5 Z" id="Rectangle" fill="#FAEC20"></path>
+                <circle id="Keyhole" fill="#FFFFFF" cx="12" cy="39.5" r="1.5"></circle>
+                <line x1="9" y1="3.5" x2="16" y2="3.5" id="Line" fill="#FAEC20"></line>
+            </g>
+            <rect id="Bounding-Box" x="0" y="0" width="64" height="64"></rect>
+        </g>
+    </g>
+</svg>

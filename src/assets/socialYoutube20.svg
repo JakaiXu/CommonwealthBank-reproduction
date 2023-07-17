@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>YouTube icon</title>
+    <defs>
+        <polygon id="path-1" points="11 22 0 22 0 0 11 0 22 0 22 22"></polygon>
+    </defs>
+    <g id="New-Commbank-Footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="xl---1200-+-New-footer---hover" transform="translate(-1211.000000, -207.000000)">
+            <g id="YouTube-icon" transform="translate(1211.000000, 207.000000)">
+                <g id="Fill-1-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <path d="M10.9996766,22 C17.0751095,22 22,17.0749647 22,11 C22,4.92503527 17.0751095,0 10.9996766,0 C4.9248905,0 0,4.92503527 0,11 C0,17.0749647 4.9248905,22 10.9996766,22" id="Fill-1" fill="#E9644A" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M16.6907429,12.6646857 L16.6907429,8.84234283 C16.6907429,8.84234283 16.6907429,7 14.8477714,7 L7.84171429,7 C7.84171429,7 6,7 6,8.84234283 L6,12.6646857 C6,12.6646857 6,14.5070286 7.84171429,14.5070286 L14.8477714,14.5070286 C14.8477714,14.5070286 16.6907429,14.5070286 16.6907429,12.6646857 L16.6907429,12.6646857 Z M13.4209143,10.7588572 L9.92039997,12.8142857 L9.92039997,8.70280004 L13.4209143,10.7588572 Z" id="Fill-4" fill="#FEFEFE" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
