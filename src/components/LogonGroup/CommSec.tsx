@@ -10,6 +10,7 @@ import {
   InputLabel,
   OutlinedInput,
   Button,
+  FormHelperText,
 } from "@mui/material";
 import ErrorOutlineIcon from "@mui/icons-material/ErrorOutline";
 import comonseclogo from "../../assets/Logon/commsec-dark.eed42743e834df112d3e2b0d799f406f.svg";
@@ -18,6 +19,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import { useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
+
 const CommSec = () => {
   const [clientId, setClientId] = useState<number | null>(null);
   const [password, setPassword] = useState<string | number | null>(null);
@@ -47,7 +49,7 @@ const CommSec = () => {
         <Card
           elevation={5}
           sx={{
-            width: "460px",
+            width: { sm: "460px", xs: "390px" },
             height: "600px",
             position: "relative",
           }}
@@ -73,7 +75,7 @@ const CommSec = () => {
           >
             Login
           </Typography>
-          <Box sx={{ width: "460px" }}>
+          <Box sx={{ width: { sm: "460px", xs: "390px" } }}>
             <FormControl
               sx={{ marginX: "7%", width: "86%", marginBottom: "20px" }}
               variant="outlined"
@@ -82,10 +84,21 @@ const CommSec = () => {
               <OutlinedInput
                 value={clientId === 0 ? "" : clientId}
                 onChange={(e) => setClientId(+e.target.value)}
-                color="primary"
+                // color="primary"
                 type="number"
                 label="Client ID"
-                error={!clientId}
+                // error={!clientId}
+                sx={{
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "gray",
+                  },
+                  "&:hover > .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "orange",
+                  },
+                  "&:focus": {
+                    border: clientId ? "1px solid orange" : "1px solid gray",
+                  },
+                }}
               />
             </FormControl>
             <FormControl
@@ -96,11 +109,11 @@ const CommSec = () => {
                 Password
               </InputLabel>
               <OutlinedInput
-                color="primary"
+                // color="success"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 type={showPassword ? "text" : "password"}
-                error={!password}
+                // error={!password}
                 endAdornment={
                   <IconButton
                     aria-label="toggle password visibility"
@@ -112,15 +125,31 @@ const CommSec = () => {
                   </IconButton>
                 }
                 label="Password"
+                sx={{
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "gray",
+                  },
+                  "&:hover > .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "orange",
+                  },
+                  "&:focus": {
+                    border: clientId ? "1px solid orange" : "1px solid gray",
+                  },
+                }}
               />
             </FormControl>
+            <FormHelperText sx={{ marginLeft: "30px", color: "red" }}>
+              {!clientId || !password
+                ? "ClientId and Password can't be empty."
+                : ""}
+            </FormHelperText>
             <Button
               variant="text"
               aria-label="join now"
               sx={{
                 textTransform: "none",
                 marginRight: "5px",
-                marginLeft: "280px",
+                marginLeft: { sm: "280px", xs: "20px" },
               }}
             >
               Join Now
@@ -196,10 +225,10 @@ const CommSec = () => {
             © Commonwealth Securities Limited ABN 60 067 254 399 AFSL 238814
           </Typography>
           <Box
-            width="460px"
             display="flex"
             justifyContent="space-between"
             marginX="auto"
+            sx={{ width: { sm: "460px", xs: "390px" } }}
           >
             <Box display="flex" component="div" alignItems="center">
               <Link sx={{ fontSize: "12px" }}>Important information</Link>

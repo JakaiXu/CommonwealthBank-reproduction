@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CommonwealthBank-reproduction
 Homepage-Logon-Balancepage
 1.What functions are implemented？
@@ -15,3 +16,7 @@ Homepage-Logon-Balancepage
 ./tailwindcss.
 ./classnames.
 
+=======
+###### Jakai-CBA url:
+ http://jakai-cba.s3-website-ap-southeast-2.amazonaws.com
+>>>>>>> f570c0e (finish transfer-create-delelte functions)

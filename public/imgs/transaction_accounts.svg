@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Accounts64</title>
+    <g id="Accounts64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accounts">
+            <rect id="Bounding-box" fill="#FFFFFF" x="0" y="0" width="64" height="64"></rect>
+            <g id="Pictogram" transform="translate(12.500000, 17.500000)" stroke="#1E1E1E">
+                <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="39" height="28" rx="3"></rect>
+                <path d="M28,10 L39,10 L39,10 L39,18 L28,18 C26.8954305,18 26,17.1045695 26,16 L26,12 C26,10.8954305 26.8954305,10 28,10 Z" id="focus" fill="#FAEC20"></path>
+                <path d="M28,10 L29,10 L29,10 L29,18 L28,18 C26.8954305,18 26,17.1045695 26,16 L26,12 C26,10.8954305 26.8954305,10 28,10 Z" id="focus" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

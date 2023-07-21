@@ -1,50 +1,33 @@
-import {
-  Box,
- 
-  Link,
-  Stack,
-  Typography,
-  styled,
-} from "@mui/material";
-import everydayaccounts from "../../assets/transaction_accounts.svg";
-import international_payments from "../../assets/international_payments.svg";
-import steppay from "../../assets/Logon/steppay.svg";
+import { Box, Link, Stack, Typography, styled } from "@mui/material";
 import StyledAccountCard from "./StyledAccountCard";
 import GrowCardLeftOne from "./GrowCardLeftOne";
-import GrowCardRightThree from "./GrowCardRightThree";
 import BottomCard from "./BottomCard";
-const accountDATA = [
-  {
-    account: "Smart Access",
-    accountNumber: "000-000 1234-4321",
-    balance: 1000,
-    available: 1000,
-    img: everydayaccounts,
-  },
-  {
-    account: "NetBank Saver",
-    accountNumber: "000-000 6789-9876",
-    balance: 10000,
-    available: 10000,
-    img: international_payments,
-  },
-  {
-    account: "Smart Saver",
-    accountNumber: "000-111 1234-5678",
-    balance: 8000,
-    available: 8000,
-    img: everydayaccounts,
-  },
-  {
-    account: "StepPay",
-    accountNumber: "5555 7777-4321-1234",
-    balance: 800,
-    available: 800,
-    img: steppay,
-  },
-];
+import { useGetClientsQuery } from "../../store";
+import DeleteAccountCard from "./DeleteAccountCard";
+import CreateAccountCard from "./CreateAccountCard";
+import TransferCard from "./TransferCard";
+
+
+interface Data {
+  id: number;
+  attributes: {
+    account: string;
+    accountNumber: string;
+    balance: number;
+    available: number;
+  };
+}
+export interface DataProps {
+  data: Data[];
+}
 
 const LoggedIn = () => {
+  const { isSuccess, data } = useGetClientsQuery({
+    pollingInterval: 3000,
+    refetchOnMountOrArgChange: true,
+    skip: false,
+  });
+
   const StyleTitle = styled("div")(({ theme }) => ({
     fontSize: "24px",
     fontWeight: "bold",
@@ -137,12 +120,13 @@ const LoggedIn = () => {
               backgroundColor: "white",
             }}
           >
-            {accountDATA.map((account) => (
-              <StyledAccountCard
-                key={account.accountNumber}
-                account={account}
-              />
-            ))}
+            {isSuccess &&
+              data.map((account: Data) => (
+                <StyledAccountCard
+                  key={account.id}
+                  account={account.attributes}
+                />
+              ))}
             <Box
               sx={{
                 display: "flex",
@@ -197,11 +181,18 @@ const LoggedIn = () => {
                 }}
               >
                 <BoldedTypography>
-                  ${accountDATA.reduce((acc, cur) => acc + cur.balance, 0)}
+                  $
+                  {isSuccess &&
+                    data.reduce((acc:number, cur:Data) => acc + cur.attributes.balance, 0)}
                 </BoldedTypography>
                 <BoldedTypography>${0}</BoldedTypography>
                 <BoldedTypography>
-                  ${accountDATA.reduce((acc, cur) => acc + cur.available, 0)}
+                  $
+                  {isSuccess &&
+                    data.reduce(
+                      (acc:number, cur:Data) => acc + cur.attributes.available,
+                      0
+                    )}
                 </BoldedTypography>
               </Box>
             </Box>
@@ -288,7 +279,7 @@ const LoggedIn = () => {
           flex={1}
           sx={{
             backgroundColor: "tranparent",
-           
+
             width: {
               lg: "350px",
               md: "100%",
@@ -303,7 +294,12 @@ const LoggedIn = () => {
             },
           }}
         >
-          <GrowCardRightThree />
+          <Box position="relative">
+            <CreateAccountCard />
+            <DeleteAccountCard />
+            <TransferCard />
+            {/* <GrowCardRightThree /> */}
+          </Box>
         </Box>
       </Box>
       <BottomCard />

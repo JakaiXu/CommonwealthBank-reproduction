@@ -1,5 +1,5 @@
 import BankingCard from "./BankingCard";
-import { Box, Divider, Paper } from "@mui/material";
+import {  Divider, Paper } from "@mui/material";
 import HomeMiddleContentFirst from "./HomeMiddleContentFirst";
 import HomeMiddleContentSecond from "./HomeMiddleContentSecond";
 import HomeMiddleContentThird from "./HomeMiddleContentThird";

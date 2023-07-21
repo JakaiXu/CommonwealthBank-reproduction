@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ForeignCurrency64</title>
+    <g id="ForeignCurrency64" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ForeignCurrency">
+            <rect id="Bounding-box" x="0" y="0" width="64" height="64"></rect>
+            <g id="Pictogram" transform="translate(12.000000, 13.500000)" stroke="#1E1E1E">
+                <circle id="Oval" fill="#FAEC20" cx="9.9804878" cy="27.2195122" r="9.9804878"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="30.8487805" cy="27.2195122" r="9.9804878"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="19.9609756" cy="9.9804878" r="9.9804878"></circle>
+                <line x1="26.5" y1="26.5" x2="30.5" y2="26.5" id="Path-24" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="26.5" y1="28.5" x2="30.5" y2="28.5" id="Path-25" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M33.5,24.5065137 C32.9232873,23.8355046 32.1928409,23.5 31.3086606,23.5 C29.9823902,23.5 28,24.5065137 28,27.5 C28,30.4934863 29.8496101,31.5 31.3086606,31.5 C32.2813609,31.5 33.0118074,31.1760102 33.5,30.5280307" id="Path-23" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M12,31 L6,31 C7.85908729,30.2276266 8.4899052,29.1487784 7.89245374,27.7634554 C6.99627656,25.685471 7.06514588,24.2691265 8.00638763,23.5340083 C8.94762939,22.7988901 10.0099714,22.7988901 11.1415847,23.6829393" id="Path-26" stroke-linecap="round" stroke-linejoin="round"></path>
+                <line x1="6" y1="27" x2="11" y2="27" id="Path-27" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="19.9609756" y1="15.4243902" x2="19.9609756" y2="9.07317073" id="Path-28" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="20" y1="14" x2="20" y2="8" id="Path-28" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.000000, 11.000000) rotate(90.000000) translate(-20.000000, -11.000000) "></line>
+                <line x1="20" y1="16" x2="20" y2="10" id="Path-28" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.000000, 13.000000) rotate(90.000000) translate(-20.000000, -13.000000) "></line>
+                <polyline id="Path-29" stroke-linecap="round" stroke-linejoin="round" points="16.3317073 5.44390244 19.9401399 9.07317073 23.5902439 5.44390244"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

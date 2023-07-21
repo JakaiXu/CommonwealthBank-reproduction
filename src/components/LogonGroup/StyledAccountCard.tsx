@@ -1,12 +1,13 @@
 import { Box, IconButton, Typography, styled } from "@mui/material";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-interface AccountProps {
+import steppay from '../../assets/Logon/steppay.svg'
+export  interface AccountProps {
   account: {
     account: string;
     accountNumber: string;
     balance: number;
     available: number;
-    img: string;
+ 
   };
 }
 
@@ -54,8 +55,8 @@ const StyledAccountCard = ({ account }: AccountProps) => {
           },
         }}
       >
-        <Box component="img" alt="everydayaccount" src={account.img}></Box>
-        <Box>
+        <Box component="img" alt="everydayaccount" sx={{marginRight:'5px'}} src={steppay}></Box>
+        <Box >
           <Typography fontWeight="bold">{account.account}</Typography>
           <ColoredTypography>{account.accountNumber}</ColoredTypography>
         </Box>
