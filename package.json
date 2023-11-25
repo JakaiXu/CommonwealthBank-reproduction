@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && aws s3 sync ./dist/ s3://jakai-cba --delete",
+    "build": "tsc && vite build && aws s3 sync ./dist/ s3://cba.jakaixu.com --delete",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
